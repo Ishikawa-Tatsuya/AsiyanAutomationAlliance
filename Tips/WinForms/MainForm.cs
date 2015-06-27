@@ -48,8 +48,12 @@ namespace WinForms
             {
                 return;
             }
+            CountA(dlg.FileName);
+        }
 
-            var lines = File.ReadAllLines(dlg.FileName);
+        private void CountA(string path)
+        {
+            var lines = File.ReadAllLines(path);
             int count = 0;
             foreach (var e in lines)
             {

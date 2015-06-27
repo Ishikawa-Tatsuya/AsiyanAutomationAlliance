@@ -37,6 +37,15 @@ namespace Tips
             Process.GetProcessById(app.ProcessId).Kill();
         }
 
+        [TestMethod]
+        public void でもさけれるならその方がいいよね()
+        {
+            var app = new WindowsAppFriend(Process.Start("WinForms.exe"));
+            var form = app.Type().System.Windows.Forms.Application.OpenForms[0];
+            form.CountA(@"c:\TestData\data.txt");
+            Process.GetProcessById(app.ProcessId).Kill();
+        }
+
         [DllImport("user32.dll")]
         [return: MarshalAs(UnmanagedType.Bool)]
         public static extern bool GetWindowRect(IntPtr hwnd, out RECT lpRect);
