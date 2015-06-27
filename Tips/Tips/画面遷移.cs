@@ -32,8 +32,6 @@ namespace Tips
             next.Title = "aaa";
 
             //でもたまに変なことしているやつがいれば注意
-            //★理由→メッセージの優先順位
-            //★メッセージループの違いの説明
             //まあ、こっち使った方が無難
             var nextW = WindowControl.WaitForIdentifyFromWindowText(app, "aaa");
             nextW.Dynamic().Close();
@@ -49,7 +47,7 @@ namespace Tips
                 a.WaitForCompletion();
             }
 
-            //シーケンシャルなやつはもっと注意
+            //連続で出るやつはもっと注意
             var buttonModalSequential = new WPFButtonBase(logicalTree.ByBinding("CommandModalSequential").Single());
             {
                 var a = new Async();

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tips", "Tips.csproj", "{D70
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms", "..\WinForms\WinForms.csproj", "{CD4D5876-6B5E-4248-9F9C-75F694FBC770}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCDlg", "..\MFCDlg\MFCDlg.vcxproj", "{F74A71FB-5252-43AC-BB96-F782F1DA287A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf", "..\Wpf\Wpf.csproj", "{BEE3850A-D9AE-4304-B4A5-6B4087CE3831}"
 EndProject
 Global
@@ -41,16 +39,6 @@ Global
 		{CD4D5876-6B5E-4248-9F9C-75F694FBC770}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{CD4D5876-6B5E-4248-9F9C-75F694FBC770}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CD4D5876-6B5E-4248-9F9C-75F694FBC770}.Release|Win32.ActiveCfg = Release|Any CPU
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Debug|Win32.Build.0 = Debug|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Release|Any CPU.ActiveCfg = Release|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Release|Win32.ActiveCfg = Release|Win32
-		{F74A71FB-5252-43AC-BB96-F782F1DA287A}.Release|Win32.Build.0 = Release|Win32
 		{BEE3850A-D9AE-4304-B4A5-6B4087CE3831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BEE3850A-D9AE-4304-B4A5-6B4087CE3831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE3850A-D9AE-4304-B4A5-6B4087CE3831}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
